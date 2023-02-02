@@ -8,7 +8,7 @@ terraform {
     organization = "common1"
 
     workspaces {
-      name = "new-repo-for-module"
+      name = "new-repo-for-module1"
     }
   }
 }
