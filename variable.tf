@@ -7,7 +7,7 @@ variable "subnets-cidr-block" {
 }
 
 variable "vpc-cidr-block" {
-  default = ""
+  default = "10.1.0.0/18"
 }
 
 variable "name" {
