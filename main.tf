@@ -1,7 +1,7 @@
 data "aws_availability_zones" "available" {}
 
 resource "aws_vpc" "my-vpc" {
-  cidr_block = "10.1.0.0/18"
+  cidr_block = var.vpc-cidr-block
   tags = {
   name = "vpc-${var.name}" }
 }
