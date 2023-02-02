@@ -6,9 +6,7 @@ variable "subnets-cidr-block" {
   default = ""
 }
 
-variable "vpc-cidr-block" {
-  default = ""
-}
+variable "vpc-cidr-block" {}
 
 variable "name" {
   type    = string
